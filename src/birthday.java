@@ -2,144 +2,144 @@ import java.util.*;
 public class birthday 
 {
 
-	//­pºâ¬P®y
+	//è¨ˆç®—æ˜Ÿåº§
 	public static void zodiac(int M, int D)
 	{
-		System.out.print("¬P®y:");
-		//switch§PÂ_¤ë¥÷¡A±N¬P®y½d³òÁY¤p¦Ü¨âºØ
+		System.out.print("æ˜Ÿåº§:");
+		//switchåˆ¤æ–·æœˆä»½ï¼Œå°‡æ˜Ÿåº§ç¯„åœç¸®å°è‡³å…©ç¨®
 		switch(M)
 		{
 		case 1:
-			//if/else§PÂ_¤é´Á¡A½T»{¬P®yºØÃş
+			//if/elseåˆ¤æ–·æ—¥æœŸï¼Œç¢ºèªæ˜Ÿåº§ç¨®é¡
 			if(D<=20) {
-				System.out.println("Å]½~®y");
-				System.out.println("¯S½è:­Ó©Ê«O¦u¡A¤Q¤ÀÂÔ·V¦Ó¥B¹¥¨}");
+				System.out.println("é­”ç¾¯åº§");
+				System.out.println("ç‰¹è³ª:å€‹æ€§ä¿å®ˆï¼Œååˆ†è¬¹æ…è€Œä¸”é¦´è‰¯");
 			}
 				
 			else {
-				System.out.println("¤ô²~®y");
-				System.out.println("¯S½è:¬°¤Hµ½ÅÜ¡A«Ü¬¡¼â¤]«Ü¦³ªí²{¤O¡A­Ó©Ê·Å©M");
+				System.out.println("æ°´ç“¶åº§");
+				System.out.println("ç‰¹è³ª:ç‚ºäººå–„è®Šï¼Œå¾ˆæ´»æ½‘ä¹Ÿå¾ˆæœ‰è¡¨ç¾åŠ›ï¼Œå€‹æ€§æº«å’Œ");
 			}
 			break;
 		case 2:
 			if(D<=19) {
-				System.out.println("¤ô²~®y");
-				System.out.println("¯S½è:¬°¤Hµ½ÅÜ¡A«Ü¬¡¼â¤]«Ü¦³ªí²{¤O¡A­Ó©Ê·Å©M");
+				System.out.println("æ°´ç“¶åº§");
+				System.out.println("ç‰¹è³ª:ç‚ºäººå–„è®Šï¼Œå¾ˆæ´»æ½‘ä¹Ÿå¾ˆæœ‰è¡¨ç¾åŠ›ï¼Œå€‹æ€§æº«å’Œ");
 			}
 			else {
-				System.out.println("Âù³½®y");
-				System.out.println("¯S½è:¨ã¦³ºÏ©Ê¡B§l¤Ş¤H¡A¨Ï¤H«Ü¼Ö©ó©M¥L¬Û³B");
+				System.out.println("é›™é­šåº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰ç£æ€§ã€å¸å¼•äººï¼Œä½¿äººå¾ˆæ¨‚æ–¼å’Œä»–ç›¸è™•");
 			}
 			break;	
 		case 3:
 			if(D<=20) {
-				System.out.println("Âù³½®y");
-				System.out.println("¯S½è:¨ã¦³ºÏ©Ê¡B§l¤Ş¤H¡A¨Ï¤H«Ü¼Ö©ó©M¥L¬Û³B");
+				System.out.println("é›™é­šåº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰ç£æ€§ã€å¸å¼•äººï¼Œä½¿äººå¾ˆæ¨‚æ–¼å’Œä»–ç›¸è™•");
 			}
 			else {
-				System.out.println("¥Õ¦Ï®y");
-				System.out.println("¯S½è:¨ã¦³³Ğ³y¤O¡B¬¡¤O¤Q¨¬");
+				System.out.println("ç™½ç¾Šåº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å‰µé€ åŠ›ã€æ´»åŠ›åè¶³");
 			}
 			break;
 		case 4:
 			if(D<=20) {
-				System.out.println("¥Õ¦Ï®y");
-				System.out.println("¯S½è:¨ã¦³³Ğ³y¤O¡B¬¡¤O¤Q¨¬");
+				System.out.println("ç™½ç¾Šåº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å‰µé€ åŠ›ã€æ´»åŠ›åè¶³");
 			}
 			else {
-				System.out.println("ª÷¤û®y");
-				System.out.println("¯S½è:¼ö±¡¡B½Ä°Ê¡B¬X¶¶¡B±Ó·P¡B¨Ì¿à");
+				System.out.println("é‡‘ç‰›åº§");
+				System.out.println("ç‰¹è³ª:ç†±æƒ…ã€è¡å‹•ã€æŸ”é †ã€æ•æ„Ÿã€ä¾è³´");
 			}
 			break;
 		case 5:
 			if(D<=21) {
-				System.out.println("ª÷¤û®y");
-				System.out.println("¯S½è:¼ö±¡¡B½Ä°Ê¡B¬X¶¶¡B±Ó·P¡B¨Ì¿à");
+				System.out.println("é‡‘ç‰›åº§");
+				System.out.println("ç‰¹è³ª:ç†±æƒ…ã€è¡å‹•ã€æŸ”é †ã€æ•æ„Ÿã€ä¾è³´");
 			}
 			else {
-				System.out.println("Âù¤l®y");
-				System.out.println("¯S½è:´¼°Ó°ª¡A¤ÏÀ³§Ö¡A¨Ã¥B¯à¨¥µ½¹D");
+				System.out.println("é›™å­åº§");
+				System.out.println("ç‰¹è³ª:æ™ºå•†é«˜ï¼Œåæ‡‰å¿«ï¼Œä¸¦ä¸”èƒ½è¨€å–„é“");
 			}
 			break;
 		case 6:
 			if(D<=21) {
-				System.out.println("Âù¤l®y");
-				System.out.println("¯S½è:´¼°Ó°ª¡A¤ÏÀ³§Ö¡A¨Ã¥B¯à¨¥µ½¹D");
+				System.out.println("é›™å­åº§");
+				System.out.println("ç‰¹è³ª:æ™ºå•†é«˜ï¼Œåæ‡‰å¿«ï¼Œä¸¦ä¸”èƒ½è¨€å–„é“");
 			}
 			else {
-				System.out.println("¥¨ÃÉ®y");
-				System.out.println("¯S½è:¬°¤H©MÄ§¥i¿Ë¡A¤]«Ü¦³³d¥ô·P");
+				System.out.println("å·¨èŸ¹åº§");
+				System.out.println("ç‰¹è³ª:ç‚ºäººå’Œè—¹å¯è¦ªï¼Œä¹Ÿå¾ˆæœ‰è²¬ä»»æ„Ÿ");
 			}
 			break;
 		case 7:
 			if(D<=22) {
-				System.out.println("¥¨ÃÉ®y");
-				System.out.println("¯S½è:¬°¤H©MÄ§¥i¿Ë¡A¤]«Ü¦³³d¥ô·P");
+				System.out.println("å·¨èŸ¹åº§");
+				System.out.println("ç‰¹è³ª:ç‚ºäººå’Œè—¹å¯è¦ªï¼Œä¹Ÿå¾ˆæœ‰è²¬ä»»æ„Ÿ");
 			}
 			else {
-				System.out.println("·à¤l®y");
-				System.out.println("¯S½è:¨ã¦³«ÕÀq·P¡A¥Í©Ê§Ö¼Ö¬¡¼â¡A®e©ö§l¤Ş¤H");
+				System.out.println("ç…å­åº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å¹½é»˜æ„Ÿï¼Œç”Ÿæ€§å¿«æ¨‚æ´»æ½‘ï¼Œå®¹æ˜“å¸å¼•äºº");
 			}
 			break;
 		case 8:
 			if(D<=22) {
-				System.out.println("·à¤l®y");
-				System.out.println("¯S½è:¨ã¦³«ÕÀq·P¡A¥Í©Ê§Ö¼Ö¬¡¼â¡A®e©ö§l¤Ş¤H");
+				System.out.println("ç…å­åº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å¹½é»˜æ„Ÿï¼Œç”Ÿæ€§å¿«æ¨‚æ´»æ½‘ï¼Œå®¹æ˜“å¸å¼•äºº");
 			}
 			else {
-				System.out.println("³B¤k®y");
-				System.out.println("¯S½è:¨ã¦³¥­ÀR¡Bª¾¨¬ªº¤ß¡A¦Ó¥B¥Rº¡¤F«H¤ß");
+				System.out.println("è™•å¥³åº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å¹³éœã€çŸ¥è¶³çš„å¿ƒï¼Œè€Œä¸”å……æ»¿äº†ä¿¡å¿ƒ");
 			}
 			break;
 		case 9:
 			if(D<=23) {
-				System.out.println("³B¤k®y");
-				System.out.println("¯S½è:¨ã¦³¥­ÀR¡Bª¾¨¬ªº¤ß¡A¦Ó¥B¥Rº¡¤F«H¤ß");
+				System.out.println("è™•å¥³åº§");
+				System.out.println("ç‰¹è³ª:å…·æœ‰å¹³éœã€çŸ¥è¶³çš„å¿ƒï¼Œè€Œä¸”å……æ»¿äº†ä¿¡å¿ƒ");
 			}
 			else {
-				System.out.println("¤Ñ¯¯®y");
-				System.out.println("¯S½è:©Ê®æ·Å©M¶êº¡¡A¹ï¥ô¦ó¨Æ³£«O«ù¤¤±e¤§¹D");
+				System.out.println("å¤©ç§¤åº§");
+				System.out.println("ç‰¹è³ª:æ€§æ ¼æº«å’Œåœ“æ»¿ï¼Œå°ä»»ä½•äº‹éƒ½ä¿æŒä¸­åº¸ä¹‹é“");
 			}
 			break;
 		case 10:
 			if(D<=23) {
-				System.out.println("¤Ñ¯¯®y");
-				System.out.println("¯S½è:©Ê®æ·Å©M¶êº¡¡A¹ï¥ô¦ó¨Æ³£«O«ù¤¤±e¤§¹D");
+				System.out.println("å¤©ç§¤åº§");
+				System.out.println("ç‰¹è³ª:æ€§æ ¼æº«å’Œåœ“æ»¿ï¼Œå°ä»»ä½•äº‹éƒ½ä¿æŒä¸­åº¸ä¹‹é“");
 			}
 			else {
-				System.out.println("¤ÑÃÈ®y");
-				System.out.println("¯S½è:¥Rº¡¤F³Ğ³y»Pµo©ú¡A¦³¦nªºª½Ä±¡B°í±jªº·N§Ó");
+				System.out.println("å¤©è åº§");
+				System.out.println("ç‰¹è³ª:å……æ»¿äº†å‰µé€ èˆ‡ç™¼æ˜ï¼Œæœ‰å¥½çš„ç›´è¦ºã€å …å¼·çš„æ„å¿—");
 			}
 			break;
 		case 11:
 			if(D<=22) {
-				System.out.println("¤ÑÃÈ®y");
-				System.out.println("¯S½è:¥Rº¡¤F³Ğ³y»Pµo©ú¡A¦³¦nªºª½Ä±¡B°í±jªº·N§Ó");
+				System.out.println("å¤©è åº§");
+				System.out.println("ç‰¹è³ª:å……æ»¿äº†å‰µé€ èˆ‡ç™¼æ˜ï¼Œæœ‰å¥½çš„ç›´è¦ºã€å …å¼·çš„æ„å¿—");
 			}
 			else {
-				System.out.println("®g¤â®y");
-				System.out.println("¯S½è:­Ó©Ê±R©|¦Û¥Ñ¡A¤£Ä@¨ü¤H©ë§ô");
+				System.out.println("å°„æ‰‹åº§");
+				System.out.println("ç‰¹è³ª:å€‹æ€§å´‡å°šè‡ªç”±ï¼Œä¸é¡˜å—äººæ‹˜æŸ");
 			}
 			break;
 		case 12:
 			if(D<=21) {
-				System.out.println("®g¤â®y");
-				System.out.println("¯S½è:­Ó©Ê±R©|¦Û¥Ñ¡A¤£Ä@¨ü¤H©ë§ô");
+				System.out.println("å°„æ‰‹åº§");
+				System.out.println("ç‰¹è³ª:å€‹æ€§å´‡å°šè‡ªç”±ï¼Œä¸é¡˜å—äººæ‹˜æŸ");
 			}
 			else {
-				System.out.println("Å]½~®y");
-				System.out.println("¯S½è:­Ó©Ê«O¦u¡A¤Q¤ÀÂÔ·V¦Ó¥B¹¥¨}");
+				System.out.println("é­”ç¾¯åº§");
+				System.out.println("ç‰¹è³ª:å€‹æ€§ä¿å®ˆï¼Œååˆ†è¬¹æ…è€Œä¸”é¦´è‰¯");
 			}
 			break;
 		}
 	}
 	
-	//­pºâ¶|¦~¡A¦^¶Ç0©Î¬O1¡A¦b¤Ñ¼Æ­pºâ®É¨Ï¥Î
+	//è¨ˆç®—é–å¹´ï¼Œå›å‚³0æˆ–æ˜¯1ï¼Œåœ¨å¤©æ•¸è¨ˆç®—æ™‚ä½¿ç”¨
 	public static int LeapYear(int year)
 	{
-		year=year+1911;//´«¦¨¦è¤¸
+		year=year+1911;//æ›æˆè¥¿å…ƒ
 		
-		if(year%4!=0 || (year%100==0 && year%400!=0))//¬O¶|¦~ªº±¡ªp
+		if(year%4!=0 || (year%100==0 && year%400!=0))//æ˜¯é–å¹´çš„æƒ…æ³
 		{
 			return 0;
 		}
@@ -149,115 +149,115 @@ public class birthday
 		}
 	}
 	
-	//­pºâ¹A¾ä¦~
+	//è¨ˆç®—è¾²æ›†å¹´
 	public static void LunarYear(int year)
 	{
 		String x=new String();
 		String y=new String();
-		//¥Î¥Á°ê1¦~·í§@°òÂ¦ÂI(¤Ğ¤l¦~)¡A¦]¬°¤Ñ¤z¦³10­Ó¦]¦¹%10
+		//ç”¨æ°‘åœ‹1å¹´ç•¶ä½œåŸºç¤é»(å£¬å­å¹´)ï¼Œå› ç‚ºå¤©å¹²æœ‰10å€‹å› æ­¤%10
 		if(year%10==3)
-			x="¥Ò";
+			x="ç”²";
 		else if(year%10==4)
-			x="¤A";
+			x="ä¹™";
 		else if(year%10==5)
-			x="¤ş";
+			x="ä¸™";
 		else if(year%10==6)
-			x="¤B";
+			x="ä¸";
 		else if(year%10==7)
-			x="¥³";
+			x="æˆŠ";
 		else if(year%10==8)
-			x="¤v";
+			x="å·±";
 		else if(year%10==9)
-			x="©°";
+			x="åºš";
 		else if(year%10==0)
-			x="¨¯";
+			x="è¾›";
 		else if(year%10==1)
-			x="¤Ğ";
+			x="å£¬";
 		else if(year%10==2)
-			x="¬Ñ";
+			x="ç™¸";
 		
-		//¥Î¥Á°ê1¦~·í§@°òÂ¦ÂI(¤Ğ¤l¦~)¡A¦]¬°¦a¤ä¦³12­Ó¦]¦¹%12
+		//ç”¨æ°‘åœ‹1å¹´ç•¶ä½œåŸºç¤é»(å£¬å­å¹´)ï¼Œå› ç‚ºåœ°æ”¯æœ‰12å€‹å› æ­¤%12
 		if(year%12==1)
-			y="¤l";
+			y="å­";
 		else if(year%12==2)
-			y="¤¡";
+			y="ä¸‘";
 		else if(year%12==3)
-			y="±G";
+			y="å¯…";
 		else if(year%12==4)
-			y="¥f";
+			y="å¯";
 		else if(year%12==5)
-			y="¨°";
+			y="è¾°";
 		else if(year%12==6)
-			y="¤x";
+			y="å·³";
 		else if(year%12==7)
-			y="¤È";
+			y="åˆ";
 		else if(year%12==8)
-			y="¥¼";
+			y="æœª";
 		else if(year%12==9)
-			y="¥Ó";
+			y="ç”³";
 		else if(year%12==10)
-			y="¨»";
+			y="é…‰";
 		else if(year%12==11)
-			y="¦¦";
+			y="æˆŒ";
 		else if(year%12==0)
-			y="¥è";
-		System.out.println("¹A¾ä¦~:"+x+y);
+			y="äº¥";
+		System.out.println("è¾²æ›†å¹´:"+x+y);
 		
 	}
 	
-	//­pºâ¥Í¨v¡A¤èªk¦P¦a¤ä­pºâ
+	//è¨ˆç®—ç”Ÿè‚–ï¼Œæ–¹æ³•åŒåœ°æ”¯è¨ˆç®—
 	public static void ChineseZodiac(int year)
 	{
 		String y=new String();
 		if(year%12==1)
-			y="¹«";
+			y="é¼ ";
 		else if(year%12==2)
-			y="¤û";
+			y="ç‰›";
 		else if(year%12==3)
-			y="ªê";
+			y="è™";
 		else if(year%12==4)
-			y="¨ß";
+			y="å…”";
 		else if(year%12==5)
-			y="Às";
+			y="é¾";
 		else if(year%12==6)
-			y="³D";
+			y="è›‡";
 		else if(year%12==7)
-			y="°¨";
+			y="é¦¬";
 		else if(year%12==8)
-			y="¦Ï";
+			y="ç¾Š";
 		else if(year%12==9)
-			y="µU";
+			y="çŒ´";
 		else if(year%12==10)
-			y="Âû";
+			y="é›";
 		else if(year%12==11)
-			y="ª¯";
+			y="ç‹—";
 		else if(year%12==0)
-			y="½Ş";
-		System.out.println("¥Í¨v:"+y);
+			y="è±¬";
+		System.out.println("ç”Ÿè‚–:"+y);
 	}
 	
-	//­pºâ¬P´Á
+	//è¨ˆç®—æ˜ŸæœŸ
 	public static void week(int year, int month, int day, int L)
 	{
-		System.out.printf("¬P´Á´X? ");
-		year=year+1911;//¦è¤¸¦~
-		int countDay=0;//±q¥X¥Í¤é´Á¨ì¥Á°ê¤@¦~¤@¤ë¤@¤éªº¤Ñ¼Æ
+		System.out.printf("æ˜ŸæœŸå¹¾? ");
+		year=year+1911;//è¥¿å…ƒå¹´
+		int countDay=0;//å¾å‡ºç”Ÿæ—¥æœŸåˆ°æ°‘åœ‹ä¸€å¹´ä¸€æœˆä¸€æ—¥çš„å¤©æ•¸
 		
-		//­pºâ¦~¥÷²Ö¿nªº¤Ñ¼Æ
+		//è¨ˆç®—å¹´ä»½ç´¯ç©çš„å¤©æ•¸
 		for(int i=1912; i<year;i++) 
 		{
-			//±q1912¦~¶}©l­pºâ¡A¦pªG¬O¶|¦~«h²Ö¿n¼W¥[365¤Ñ
+			//å¾1912å¹´é–‹å§‹è¨ˆç®—ï¼Œå¦‚æœæ˜¯é–å¹´å‰‡ç´¯ç©å¢åŠ 365å¤©
 			if(i%4!=0 || (i%100==0 && i%400!=0))
 			{
 				countDay+=365;
 			}
-			else//±q1912¦~¶}©l­pºâ¡A¦pªG«D¶|¦~«h²Ö¿n¼W¥[366¤Ñ
+			else//å¾1912å¹´é–‹å§‹è¨ˆç®—ï¼Œå¦‚æœéé–å¹´å‰‡ç´¯ç©å¢åŠ 366å¤©
 			{
 				countDay+=366;
 			}
 		}
 		
-		//­pºâ¤ë¥÷²Ö¿nªº¤Ñ¼Æ
+		//è¨ˆç®—æœˆä»½ç´¯ç©çš„å¤©æ•¸
 		switch(month-1)
 		{
 		case 11:
@@ -279,39 +279,39 @@ public class birthday
 		case 3:
 			countDay=countDay+31;
 		case 2:
-			countDay=countDay+28+L;//¥[¤W¤µ¦~LeapYear()¦^¶Ç­È(¶|¦~+1/«D¶|¦~+0)
+			countDay=countDay+28+L;//åŠ ä¸Šä»Šå¹´LeapYear()å›å‚³å€¼(é–å¹´+1/éé–å¹´+0)
 		case 1:
 			countDay=countDay+31;
 		default:
 			break;	
 		}
 		
-		//­pºâ¤é´Á²Ö¿nªº¤Ñ¼Æ
+		//è¨ˆç®—æ—¥æœŸç´¯ç©çš„å¤©æ•¸
 		countDay=countDay+day-1;
 		
-		//¤@©P¤C¤Ñ¡A¥Î²Ö¿n¤Ñ¼Æ%7±o¨ì¬P´Á
+		//ä¸€å‘¨ä¸ƒå¤©ï¼Œç”¨ç´¯ç©å¤©æ•¸%7å¾—åˆ°æ˜ŸæœŸ
 		switch(countDay%7)
 		{
 		case 1:
-			System.out.println("¬P´Á¤G");
+			System.out.println("æ˜ŸæœŸäºŒ");
 			break;
 		case 2:
-			System.out.println("¬P´Á¤T");
+			System.out.println("æ˜ŸæœŸä¸‰");
 			break;
 		case 3:
-			System.out.println("¬P´Á¥|");
+			System.out.println("æ˜ŸæœŸå››");
 			break;
 		case 4:
-			System.out.println("¬P´Á¤­");
+			System.out.println("æ˜ŸæœŸäº”");
 			break;
 		case 5:
-			System.out.println("¬P´Á¤»");
+			System.out.println("æ˜ŸæœŸå…­");
 			break;
 		case 6:
-			System.out.println("¬P´Á¤é");
+			System.out.println("æ˜ŸæœŸæ—¥");
 			break;
 		default:
-			System.out.println("¬P´Á¤@");
+			System.out.println("æ˜ŸæœŸä¸€");
 			break;
 		}
 		
@@ -320,32 +320,32 @@ public class birthday
 	public static void BirthTime(int time)
 	{
 		String y=new String();
-		//if/else§PÂ_®É¨°
+		//if/elseåˆ¤æ–·æ™‚è¾°
 		if(time<=1 || time==23)
-			y="¤l";
+			y="å­";
 		else if(time<=3)
-			y="¤¡";
+			y="ä¸‘";
 		else if(time<=5)
-			y="±G";
+			y="å¯…";
 		else if(time<=7)
-			y="¥f";
+			y="å¯";
 		else if(time<=9)
-			y="¨°";
+			y="è¾°";
 		else if(time<=11)
-			y="¤x";
+			y="å·³";
 		else if(time<=13)
-			y="¤È";
+			y="åˆ";
 		else if(time<=15)
-			y="¥¼";
+			y="æœª";
 		else if(time<=17)
-			y="¥Ó";
+			y="ç”³";
 		else if(time<=19)
-			y="¨»";
+			y="é…‰";
 		else if(time<=21)
-			y="¦¦";
+			y="æˆŒ";
 		else
-			y="¥è";
-		System.out.println("®É¨°:"+y+"®É");
+			y="äº¥";
+		System.out.println("æ™‚è¾°:"+y+"æ™‚");
 	}
 	
 	public static void main(String[] args) 
@@ -355,19 +355,19 @@ public class birthday
 		while(flag==1) 
 		{
 			flag=0;
-			System.out.print("¿é¤J¥X¥Í¦~(¥Á°ê):");
+			System.out.print("è¼¸å…¥å‡ºç”Ÿå¹´(æ°‘åœ‹):");
 			year=sc.nextInt();
-			System.out.print("¿é¤J¥X¥Í¤ë:");
+			System.out.print("è¼¸å…¥å‡ºç”Ÿæœˆ:");
 			month=sc.nextInt();
-			System.out.print("¿é¤J¥X¥Í¤é:");
+			System.out.print("è¼¸å…¥å‡ºç”Ÿæ—¥:");
 			day=sc.nextInt();
-			System.out.print("¿é¤J¥X¥Í®É¨è(0~23):");
+			System.out.print("è¼¸å…¥å‡ºç”Ÿæ™‚åˆ»(0~23):");
 			time=sc.nextInt();
 			
-			//§PÂ_¿é¤J­È¬O§_¦X²z
+			//åˆ¤æ–·è¼¸å…¥å€¼æ˜¯å¦åˆç†
 			if(year<=0 || month>12 || time>23)
 			{
-				System.out.println("¥Í¤é®æ¦¡¿ù»~¡A½Ğ­«·s¿é¤J");
+				System.out.println("ç”Ÿæ—¥æ ¼å¼éŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥");
 				flag=1;
 			}
 			else {
@@ -382,7 +382,7 @@ public class birthday
 				case 12:
 					if(day>31)
 					{
-						System.out.println("¥Í¤é®æ¦¡¿ù»~¡A½Ğ­«·s¿é¤J");
+						System.out.println("ç”Ÿæ—¥æ ¼å¼éŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥");
 						flag=1;
 					}
 					break;
@@ -392,14 +392,14 @@ public class birthday
 				case 11:
 					if(day>30)
 					{
-						System.out.println("¥Í¤é®æ¦¡¿ù»~¡A½Ğ­«·s¿é¤J");
+						System.out.println("ç”Ÿæ—¥æ ¼å¼éŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥");
 						flag=1;
 					}
 					break;
 				default:
 					if((LeapYear(year)==1 && day>30)||(LeapYear(year)==0 && day>29))
 					{
-						System.out.println("¥Í¤é®æ¦¡¿ù»~¡A½Ğ­«·s¿é¤J");
+						System.out.println("ç”Ÿæ—¥æ ¼å¼éŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥");
 						flag=1;
 					}	
 					break;
@@ -408,7 +408,7 @@ public class birthday
 		}
 		zodiac(month, day);
 		int L=LeapYear(year);
-		System.out.printf("¬O¶|¦~¶Ü? ");
+		System.out.printf("æ˜¯é–å¹´å—? ");
 		if(L==0)
 			System.out.println("NO");
 		else
